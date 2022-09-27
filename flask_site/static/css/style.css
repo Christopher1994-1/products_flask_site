@@ -70,10 +70,6 @@ carousel css on index page*/
     color: black;
 }
 
-
-
-
-
 /* # first carousel box thing */
 .learn-more {
     border: 3px solid rgb(194, 212, 25);
@@ -156,7 +152,68 @@ carousel css on index page*/
     color:black
 }
 
+.first-header {
+    text-align: center;
+}
 
+/* #################################################### */
+.index-hr {
+    width: 1200px;
+    margin: auto;
+}
+
+.index-extra-stuff {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ie1 {
+    display: inline-block;
+    width: 30%;
+}
+
+.ie2 {
+    display: inline-block;
+    width: 30%;
+}
+
+.ie3 {
+    display: inline-block;
+    width: 30%;
+}
+
+
+
+.ie1 h1 {
+    color: darkblue;
+    font-size: 70px;
+}
+
+.ie1 p {
+    font-size: 30px;
+}
+
+
+
+.ie2 h1 {
+    color: darkblue;
+    font-size: 70px;
+}
+
+.ie2 p {
+    font-size: 30px;
+}
+
+
+.ie3 h1 {
+    color: darkblue;
+    font-size: 70px;
+}
+
+.ie3 p {
+    font-size: 30px;
+}
 /* ########################################################################################################
 css on the power of vcf page*/
 
