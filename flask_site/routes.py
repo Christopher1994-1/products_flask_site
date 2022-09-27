@@ -12,9 +12,15 @@ import os
 
 
 
+
 # *******************************************************************
 # website routes
 
 @app.route('/')
 def index():
     return render_template('index.html')
+
+
+@app.route('/the_power_of_vcf.html')
+def the_power_of_vcf():
+    return render_template('the_power_of_vcf.html')

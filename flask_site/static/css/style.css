@@ -1,0 +1,251 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(230, 230, 230);
+}
+
+.main-header:hover {
+    background-color: white;
+    border-bottom: 1px solid #9E9E9E;
+}
+
+.main-header .header a:hover{
+    font-weight: bold;
+    color: darkred;
+}
+
+.navbar {
+    width: 600px;
+    display: inline-block;
+}
+
+.main-header .navbar .nav-link:hover {
+    font-weight: bold;
+    color: darkred;
+}
+
+.main-header .navbar .navbar-brand:hover {
+    font-weight: bold;
+    color: darkred;
+}
+
+.header {
+    display: inline-block;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ########################################################################################################
+carousel css on index page*/
+
+.carousel-caption {
+    width: 50%;
+    height: 90%;
+    margin-right: 300px;
+    background-color: white;
+    background: rgb(223, 222, 222); 
+    background: rgba(243, 241, 241, 0.7)
+}
+
+.carousel-caption:hover {
+    background-color: white;
+    background: rgba(223, 222, 222, 0.726); 
+    background: rgba(243, 241, 241, 0.849)
+}
+
+.carousel-caption .caption-header-1 {
+    font-size: 70px;
+    color: #000;
+    margin-top: 90px;
+}
+
+.carousel-caption .caption-p {
+    color: black;
+}
+
+
+
+
+
+/* # first carousel box thing */
+.learn-more {
+    border: 3px solid rgb(194, 212, 25);
+    width: 340px;
+    color: #000;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.learn-more:hover {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 5px;
+
+}
+
+.learn-more a {
+    color: #000;
+    text-decoration: none;
+}
+
+.learn-more a:hover {
+    color: black
+}
+
+
+/* # second carousel box thing */
+.learn-more2 {
+    border: 2px solid rgb(194, 212, 25);
+    width: 370px;
+    color: #000;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+.learn-more2:hover {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 5px;
+
+}
+.learn-more2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.learn-more2 a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* # third carousel box thing */
+.learn-more3 {
+    border: 2px solid rgb(194, 212, 25);
+    width: 320px;
+    color: #000;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.learn-more3:hover {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 5px;
+
+}
+
+.learn-more3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.learn-more3 a:hover {
+    color:black
+}
+
+
+/* ########################################################################################################
+css on the power of vcf page*/
+
+.the-power-of-vcf-holding {
+    display: inline-block;
+    z-index: -1;
+    height: 60%;
+}
+
+.img2 {
+    height: 600px;
+    width: 495px;
+    float: right;
+}
+
+.power-of-pain {
+    width: 500px;
+    margin-bottom: 100px;
+    z-index: 1;
+    bottom: 190px;
+    position: relative;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.power-of-pain:hover {
+    color:darkblue;
+}
+
+.power-of-pain2 {
+    text-align: center;
+}
+
+/* ############################## */
+
+.extra-info {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.e1 {
+    display: inline-block;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.e2 {
+    display: inline-block;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.e3 {
+    display: inline-block;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.e4 {
+    display: inline-block;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+
+.e1 h1 {
+    color: darkblue;
+    font-size: 60px;
+}
+
+.e2 h1 {
+    color: darkblue;
+    font-size: 60px;
+}
+
+.e3 h1 {
+    color: darkblue;
+    font-size: 60px;
+}
+
+.e4 h1 {
+    color: darkblue;
+    font-size: 60px;
+}
+
+
+/* ########################################################################################################
+css on the power of vcf page    ------   card display thing*/
+
