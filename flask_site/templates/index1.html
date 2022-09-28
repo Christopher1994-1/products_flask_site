@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/static/images/lighModeV.ico">
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/style1.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Leading Diversified Manager | Annaly Capital</title>
 </head>
@@ -12,6 +12,8 @@
 
     {% extends "base.html" %}
 {% block content %}
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -44,10 +46,10 @@
     </div>
     </div>
 
-
+<br>
 
 <h1 class="first-header">With our permanent capital and diversified investment strategies, we are a leader across the residential mortgage finance market.</h1>
-    <hr class="index-hr">
+   <br> <hr class="index-hr"><br>
 <div class="index-extra-stuff">
     <div class="ie1">
         <h1>$82bn</h1>
@@ -66,10 +68,83 @@
 
 </div>
 
+<br><br>
 
+<div class="main-section">
 <div class="grey-index-box">
-    <h1>Agency</h1>
+    <div class="grey-index-box-stuff">
+    <h1 class="grey-index-box-h1"><a href="#">Agency</a></h1>
+    <hr>
+        <div class="grey-index-box-minor">
+            <a href="#"><h4>Mortgage Servicing Rights</h4></a>
+            <hr>
+            <a href="#"><h4>Residential Credit</h4></a>
+            <hr>
+    </div>
+</div>
+</div>
+
+<div class="blue-index-box">
+    <div class="blue-index-p1">
+        <p>Utilizing the power of Annaly's capital to generate attractive returns and supper the American homeowner</p>
+    </div>
+
+    <div class="blue-index-p2">
+        <p >The Annaly Agency Group invest in Agency mortgage-backed securities ("MBS") collateralized by residential mortgages which are guaranteed by Fannie Mae, Freddie Max or Ginnie Mae and complementary investments within the Agency market, including Agency CMBS</p>
+    </div>
+        <div class="index-extra-stuff2">
+            <div class="blue-box-thing">
+                <h1>$82bn</h1>
+                <p>Total assets</p>
+            </div>
+    
+            <div class="blue-box-thing2">
+                <h1>$11bn</h1>
+                <p>Permanent Capital</p>
+            </div>
+    </div>
+    <div class="blue-box-learn-more">
+        <a href="#"><h1>Learn More</h1></a>
+    </div>
+</div>
+</div>
+
+
+<div class="investor-box">
+
+    <div class="investors-investors">
+        <h1>Investors</h1>
+    </div>
+
+    <div class="investors-box-stuff">
+        <a href="#"><h1>Events</h1></a>
+        <hr>
+        <p>There are currently no upcoming events. Please check back later.</p>
+    </div>
+    <br>
+
+    <div class="stock-info">
+        <a href="#"><h1 id="h11">Stock Information</h1></a>
+        <hr>
+            <div class="stock">
+                <h1>${{ stock_price }}</h1>
+            </div>
+            <div class="other-stock">
+                <h1>{{ change }}({{ percent_change }}) | NYSE: NLY</h1>
+
+            </div>
+    </div>
+        <div class="investor-relations-click">
+            <a href="#"><h1>Investor Relations</h1></a>
+        </div>
 
 </div>
 
+
+<div class="investor-left-side-box">
+    <a href="#"><h1>Investor Presentations</h1></a>
+    <hr>
+    <a href="#"><img src="/static/images/investor-thing.jpg" alt="some stuff image"></a>
+
+</div>
 {% endblock %}
