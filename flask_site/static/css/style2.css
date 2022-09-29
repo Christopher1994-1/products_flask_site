@@ -120,3 +120,182 @@ our business page */
     width: 630px;
     margin: auto;
 }
+
+/* 
+######################################################################################
+investor relations */
+
+.investor-relations-page {
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+.investor-relations-page2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+
+.investor-relations-labels {
+    text-align: center;
+    width: 600px;
+    z-index: 90;
+    position: relative;
+    bottom: 180px;
+    left: 30px;
+}
+
+.investor-relations-div-thing {
+    width: 1200px;
+    text-align: left;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.investor-why-invest {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.why-invest-item1 {
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    bottom: 77px;
+}
+
+.why-invest-item1 h1 {
+    font-size: 24px;
+    width: 140px;
+    margin: auto;
+}
+
+.why-invest-item1 p {
+    width: 150px;
+}
+
+
+
+
+.why-invest-item2 {
+    display: inline-block;
+    height: 200px;
+}
+
+.why-invest-item2 h1 {
+    font-size: 24px;
+    width: 140px;
+    margin: auto;
+}
+
+.why-invest-item2 p {
+    width: 150px;
+}
+
+
+
+
+
+.why-invest-item3 {
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    bottom: 77px;
+}
+
+.why-invest-item3 h1 {
+    font-size: 24px;
+    width: 140px;
+    margin: auto;
+}
+
+.why-invest-item3 p {
+    width: 150px;
+}
+
+
+
+
+.why-invest-item4 {
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    top: 29px;
+}
+
+.why-invest-item4 h1 {
+    font-size: 24px;
+    width: 140px;
+    margin: auto;
+}
+
+.why-invest-item4 p {
+    width: 150px;
+}
+
+
+
+
+
+.why-invest-item5 {
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    bottom: 53px;
+}
+
+.why-invest-item5 h1 {
+    font-size: 24px;
+    width: 140px;
+    margin: auto;
+}
+
+.why-invest-item5 p {
+    width: 150px;
+}
+
+
+
+
+/* 
+################################################################################ */
+
+
+.little-btn {
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.little-btn h1 {
+    font-size: 20px;
+}
+
+.little-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.little-btn a:hover {
+    color: darkred;
+}
+
+.little-btn h1:hover {
+    font-size: 22px;
+}
+
+.little-btn:hover {
+    background-color: darkgrey;
+}
