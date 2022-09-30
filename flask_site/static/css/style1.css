@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(230, 230, 230);
+    background-color: white;
 }
 
 .main-header:hover {
@@ -25,6 +25,8 @@
     color: darkred;
 }
 
+
+
 .main-header .navbar .navbar-brand:hover {
     font-weight: bold;
     color: darkred;
@@ -33,7 +35,7 @@
 .header {
     display: inline-block;
     color: black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .header a{
@@ -544,9 +546,11 @@ css on the power of vcf page*/
     z-index: 1;
     bottom: 190px;
     position: relative;
-    color:rgb(36, 35, 35);
+    font-family: "Times New Roman", Times, serif;
+    color: white;
     font-size: 60px;
     text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 .power-of-pain:hover {
@@ -560,10 +564,12 @@ css on the power of vcf page*/
     z-index: 1;
     bottom: 290px;
     position: relative;
-    color: rgb(36, 35, 35);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-align: center;
     font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 1px 1px black;
 }
 
 /* ############################## */

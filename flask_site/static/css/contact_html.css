@@ -1,0 +1,31 @@
+.first-contact-div {
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+}
+
+.first-contact-div p {
+    font-size: 20px;
+}
+
+
+.seond-contact-div {
+    border: 2px solid black;
+    width: 1000px;
+    margin: auto;
+}
+
+
+.company-contact-info-div {
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.company-contact-info-info {
+    border: 2px solid black;
+}
+
+
+.transfer-agent {
+    display: inline-block;
+    border: 2px solid black;
+}

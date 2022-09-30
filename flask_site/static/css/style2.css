@@ -15,8 +15,13 @@ our business page */
     text-align: left;
     width: 600px;
     display: inline-block;
+    font-family: "Times New Roman", Times, serif;
     position: relative;
     top: 20px;
+}
+
+.some-box p {
+    font-size: 20px;
 }
 
 
@@ -53,11 +58,13 @@ our business page */
 .in-le-si h1 {
     font-size: 50px;
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
     color: darkblue
 }
 
 .in-le-si p {
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -128,6 +135,7 @@ investor relations */
 .investor-relations-page {
     color:rgb(255, 255, 255);
     font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
     text-shadow: 2px 2px black;
 }
 
@@ -153,6 +161,7 @@ investor relations */
     text-align: left;
     margin: auto;
     box-sizing: border-box;
+    padding: 10px;
 }
 
 
@@ -299,3 +308,457 @@ investor relations */
 .little-btn:hover {
     background-color: darkgrey;
 }
+
+
+
+
+
+
+
+/* ###################################################################################################
+blue investor stock information */
+
+
+
+.blue-investor-box-box {
+    padding: 30px;
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(26, 26, 83);
+}
+
+
+.blue-investor-info {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+
+
+
+
+.blue-investor-label {
+    text-shadow: 2px 2px black;
+    display: inline-block;
+    color: white
+}
+
+
+.blue-investor-stock-price {
+    display: inline-block;
+    border-left: 3px solid rgb(119, 45, 45);
+    width: 30%;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.blue-investor-stock-price h1 {
+    font-size: 50px;
+}
+
+.blue-investor-stock-price p {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+
+.blue-investor-divs {
+    display: inline-block;
+    border-left: 3px solid rgb(119, 45, 45);
+    width: 30%;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.blue-investor-divs h1 {
+    font-size: 50px;
+}
+
+.blue-investor-divs p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.blue-investor-div-yield {
+    display: inline-block;
+    border-left: 3px solid rgb(119, 45, 45);
+    width: 30%;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+
+.blue-investor-div-yield h1 {
+    font-size: 50px;
+}
+
+.blue-investor-div-yield p {
+    font-size: 20px;
+}
+
+
+
+
+
+.blue-investor-button {
+    border: 3px solid rgb(85, 26, 26);
+    width: 300px;
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.blue-investor-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.blue-investor-button a:hover{
+    color: rgb(173, 42, 42);
+}
+
+
+
+
+
+/* 
+#################################################################################
+annual finanical thing */
+
+.financial-filings {
+    padding: 10px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(231, 231, 231);
+}
+
+.financial-filings-header {
+    text-shadow: 2px 2px white;
+}
+
+
+.financial-filings-links hr {
+    text-shadow: 2px 2px white;
+    width: 800px;
+    margin: auto;
+}
+
+.financial-filings-links a {
+    text-shadow: 2px 2px white;
+    color: black;
+    text-decoration: none;
+}
+
+.financial-filings-links a:hover {
+    color: darkred;
+}
+
+
+
+.s2021-annual-button {
+    border: 2px solid black;
+    width: 280px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.s2021-annual-button a {
+    text-shadow: 2px 2px white;
+    color: black;
+    text-decoration: none;
+}
+
+.s2021-annual-button a:hover {
+    color: darkred;
+}
+
+
+
+
+
+
+
+
+
+/* 
+################################################################################################ */
+
+
+.contact-info-investors {
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.ir-contact {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    position: relative;
+    left: 30px;
+}
+
+.sign-up-button {
+    border: 2px solid black;
+    width: 270px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sign-up-button a{
+    color: black;
+    text-decoration: none;
+}
+
+.sign-up-button a:hover{
+    color: darkred;
+}
+
+.line-break {
+    display: inline-block;
+    border-left: 3px solid rgb(0, 0, 0);
+}
+
+.transfer-agent {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    position: relative;
+    bottom: 14px;
+    left: 60px;
+}
+
+.img222 {
+    width: 1000px;
+}
+
+
+
+
+.info-box-thing {
+    border: 2px solid black;
+    width: 580px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(46, 46, 110);
+    position: relative;
+    bottom: 220px;
+    left: 250px;
+}
+
+
+
+.first-box-thing {
+    border: 2px solid black;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+
+
+.second-box-thing {
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/* 
+######################################################################################
+careers page css */
+
+
+
+.first-careers-thing {
+    border: 2px solid rgb(231, 231, 231);
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+
+
+
+.second-careers-thing {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    width: 1100px;
+    margin: auto;
+}
+
+
+
+.img-one-thing {
+    display: inline-block;
+}
+
+
+
+
+.img-white-boxes {
+    box-sizing: border-box;
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    height: 0%;
+}
+
+.img-one-box {
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    bottom: 190px;
+    padding: 10px;
+    right: 61px;
+    background-color: white;
+}
+
+.img-two-box {
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    bottom: 170px;
+    padding: 10px;
+    left: 61px;
+    background-color: white;
+}
+
+
+.third-career-thing {
+    text-align: center;
+    width: 1100px;
+    margin: auto;
+}
+
+
+
+.img-two-thing {
+    display: inline-block;
+}
+
+
+
+/* 
+##########################################################
+fourth careers thing */
+
+
+.fourth-career-thing {
+    border: 2px solid black;
+    width: 1300px;
+    padding: 25px;
+    background-color: rgb(238, 238, 238);
+}
+
+
+.fourth-career-thing-label hr {
+    width: 550px;
+}
+
+
+.fourth-career-thing-links {
+    width: 500px;
+    position: relative;
+    left: 50px;
+}
+
+
+
+.fourth-career-thing-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.fourth-career-thing-links a:hover {
+    text-decoration: none;
+    color: rgb(110, 28, 28);
+}
+
+
+.fourth-career-blue-box {
+    background-color: rgb(46, 46, 110);
+    width: 700px;
+    margin: auto;
+    position: relative;
+    bottom: 280px;
+    left: 200px;
+    padding: 45px;
+}
+
+.fourth-career-blue-box-stuff {
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.fifth-career-thing-img {
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

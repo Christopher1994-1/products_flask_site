@@ -42,6 +42,18 @@ def our_business():
     return render_template('our_business.html')
 
 
-@app.route('/investors.html')
+@app.route('/investors.html', methods=["GET", "POST"])
 def investors():
-    return render_template('investors.html')
+    price = get_stock_price(ticker, api_key)['close'][:-3]
+    percent_change = get_stock_price(ticker, api_key)['percent_change'][:-3]
+    change = get_stock_price(ticker, api_key)['change'][:-3]
+    return render_template('investors.html', stock_price=price, percent_change=percent_change, change=change)
+
+@app.route('/careers.html')
+def careers():
+    return render_template('careers.html')
+
+
+@app.route('/contact.html')
+def contact():
+    return render_template('contact.html')
