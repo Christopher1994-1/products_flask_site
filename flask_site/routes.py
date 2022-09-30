@@ -57,3 +57,8 @@ def careers():
 @app.route('/contact.html')
 def contact():
     return render_template('contact.html')
+
+
+@app.route('/our_company.html')
+def our_company():
+    return render_template('our_company.html')

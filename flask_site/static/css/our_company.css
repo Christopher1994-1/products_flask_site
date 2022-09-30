@@ -1,0 +1,177 @@
+.first-our-company-div {
+    border: 2px solid black;
+    width: 1100px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(230, 230, 230);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.first-our-company-div p {
+    font-size: 17px;
+}
+
+
+
+.second-our-company-div {
+    box-sizing: border-box;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.second-our-company-div-inside {
+    display: inline-block;
+    font-size: 20px;
+    width: 40%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.second-our-company-div-inside h1{
+    font-size: 60px;
+    color: darkblue;
+}
+
+
+
+
+.second-our-company-div-inside2 {
+    display: inline-block;
+    font-size: 20px;
+    width: 40%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.second-our-company-div-inside2 h1{
+    font-size: 60px;
+    color: darkblue;
+}
+
+
+
+
+.our-company-imgs {
+    border: 2px solid black;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+
+
+.img-one-thing1 {
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.img-two-thing2 {
+    display: inline-block;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.our-company-img-info-boxes {
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 0%;
+    margin: auto;
+    text-align: center;
+}
+
+.first-img-info-box {
+    background-color: white;
+    display: inline-block;
+    width: 350px;
+    padding: 14px;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+    bottom: 240px;
+    right: 85px;
+}
+
+
+.first-img-info-box-btn {
+    font-size: 20px;
+    margin: auto;
+    width: 220px;
+}
+
+
+
+.first-img-info-box-btn button:hover{
+    font-size: 20px;
+    width: 220px;
+    color: darkred;
+    border: 2px solid darkred;
+    background-color: black;
+    margin: auto;
+}
+
+.second-img-info-box {
+    background-color: white;
+    display: inline-block;
+    width: 350px;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+    bottom: 220px;
+    left: 85px;
+    padding: 14px;
+}
+
+
+.second-img-info-box-btn button{
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+}
+
+
+.second-img-info-box-btn button:hover{
+    font-size: 20px;
+    width: 200px;
+    color: darkred;
+    border: 2px solid darkred;
+    background-color: black;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.last-our-compnay-div {
+    width: 1000px;
+    margin: auto;
+    font-family: "Times New Roman", Times, serif;
+    padding: 30px;
+    background-color: rgb(28, 28, 82);
+    color: white;
+}
+
+
+.last-our-compnay-div p{
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.last-our-compnay-div h1{
+    text-shadow: 2px 2px black;
+}

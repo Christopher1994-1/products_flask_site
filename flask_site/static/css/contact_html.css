@@ -1,6 +1,6 @@
 .first-contact-div {
     font-family: "Times New Roman", Times, serif;
-    padding: 10px;
+    padding: 30px;
 }
 
 .first-contact-div p {
@@ -9,23 +9,63 @@
 
 
 .seond-contact-div {
-    border: 2px solid black;
-    width: 1000px;
+    width: 1100px;
     margin: auto;
+    text-align: center;
+    padding: 15px;
 }
 
 
 .company-contact-info-div {
-    border: 2px solid black;
     display: inline-block;
 }
 
 .company-contact-info-info {
-    border: 2px solid black;
+    border: 2px solid white;
+    line-height: 0.5;
+    text-align: left;
 }
+
+
+.company-contact-info-info2 {
+    border: 2px solid white;
+    line-height: 0.5;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+
+.company-contact-info-info3 {
+    border: 2px solid white;
+    line-height: 0.5;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+.company-contact-btn {
+    width: 210px;
+}
+
+.company-contact-btn button {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.company-contact-btn button:hover {
+    color: darkred;
+}
+
 
 
 .transfer-agent {
     display: inline-block;
-    border: 2px solid black;
+    position: relative;
+    bottom: 123px;
+}
+
+
+.conpany-transfer-contact-info {
+    line-height: 0.8;
 }
